@@ -1,0 +1,28 @@
+{
+"nodes":[
+{"node":0,"name":"Segment 1"},
+{"node":1,"name":"Segment 2"},
+{"node":2,"name":"Unique Users Targeted"},
+{"node":3,"name":"SMS"},
+{"node":4,"name":"E-Mail"},
+{"node":5,"name":"Unique Users Clicked"},
+{"node":6,"name":"Total Conversions"},
+{"node":7,"name":"Users Not Targeted"},
+{"node":8,"name":"Communication Bounce"},
+{"node":9,"name":"Remaining Users"}
+],
+"links":[
+{"source":0,"target":2,"value":2},
+{"source":1,"target":2,"value":2},
+{"source":2,"target":3,"value":1},
+{"source":2,"target":4,"value":1},
+{"source":2,"target":3,"value":2},
+{"source":3,"target":5,"value":1},
+{"source":4,"target":5,"value":1},
+{"source":5,"target":6,"value":1},
+{"source":0,"target":7,"value":1},
+{"source":1,"target":7,"value":1},
+{"source":7,"target":8,"value":1},
+{"source":8,"target":9,"value":1}
+]
+}
